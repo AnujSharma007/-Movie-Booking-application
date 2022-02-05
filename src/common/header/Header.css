@@ -1,0 +1,19 @@
+.header{
+    background-color: #222;
+    height: 36px;
+    padding-top: 8px;
+    padding-right: 32px;
+    padding-left: 16px;
+}
+
+.HeaderImg{
+    background-color: #ff7f7f;
+    height: 35px;
+    animation: svgImg 8s linear infinite;
+}
+
+@keyframes svgImg {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  
+}
