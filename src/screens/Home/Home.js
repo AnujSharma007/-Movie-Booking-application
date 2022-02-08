@@ -1,5 +1,5 @@
 
-import { FormControl, ImageList, Input, InputLabel, MenuItem, Select, TextField } from '@material-ui/core';
+import { Button, FormControl, ImageList, Input, InputLabel, MenuItem, Select, TextField } from '@material-ui/core';
 import SelectInput from '@material-ui/core/Select/SelectInput';
 import { makeStyles } from '@material-ui/styles';
 import React, { Component } from 'react';
@@ -339,6 +339,8 @@ class Home extends Component {
                     type="date"
                     defaultValue=""
                     InputLabelProps={{ shrink: true }}/><br></br><br></br>
+
+                    <Button variant='contained' color='primary'>Apply</Button>
                     
                  
                  </FormControl>
