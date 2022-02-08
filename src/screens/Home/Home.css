@@ -19,6 +19,7 @@
 .movieimgcard{
     display: flex;
     flex-direction: row;
+    cursor: pointer;
     flex-wrap: wrap;
     background-color: antiquewhite;
     width: 76%;
@@ -27,7 +28,7 @@
 .movieFilter{
 display: flex;
 justify-content: center;
-border: 1px solid gray;
+box-shadow: 5px gray;
 margin: 3%;
 width: 24%;
 }
@@ -41,7 +42,18 @@ width: 24%;
    overflow: hidden;
    height: 300px;
    margin: 20px;
+ 
 }
+
+
+.titleanddate{
+    opacity: 0.9;
+    background-color: rgb(73, 71, 71);
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
 
 .upcomingmovies{
     display: flex;
