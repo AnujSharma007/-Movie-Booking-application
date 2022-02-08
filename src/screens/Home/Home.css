@@ -1,0 +1,61 @@
+.second-header{
+   padding: 8px;
+   font-size: 1rem;
+   text-align: center;
+   background-color:  #ff9999;
+}
+
+.headmoviecontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.filterheading{
+   margin-top: 50px;
+   margin-left: 10px;
+}
+
+.movieimgcard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    width: 76%;
+}
+
+.movieFilter{
+display: flex;
+justify-content: center;
+border: 1px solid gray;
+margin: 3%;
+width: 24%;
+}
+
+.homepage{
+    display: flex;
+    flex-direction: row;
+}
+
+.upcomingmovieimg{
+   overflow: hidden;
+   height: 300px;
+   margin: 20px;
+}
+
+.upcomingmovies{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.movielist{
+    overflow-x: auto;
+    overflow: scroll;
+    overflow-y: hidden;
+    background-color:  #ff9999;
+}
+
+
+
+

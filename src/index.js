@@ -4,7 +4,9 @@ import Header from './common/header/Header';
 import Home from './screens/Home/Home';
 
 ReactDOM.render(
-    <Header />,
+    <Home />,
   document.getElementById('root')
 );
+
+
 
