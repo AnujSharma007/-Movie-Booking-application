@@ -21,7 +21,6 @@
     flex-direction: row;
     cursor: pointer;
     flex-wrap: wrap;
-    background-color: antiquewhite;
     width: 76%;
 }
 
@@ -44,7 +43,6 @@ width: 24%;
    margin: 20px;
  
 }
-
 
 .titleanddate{
     opacity: 0.9;
